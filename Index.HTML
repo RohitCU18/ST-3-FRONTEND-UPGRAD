@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>DETAILS FORM</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <br><br><br><table border="1" align="center">
+        <tr><td>
+            <div class="contact" style="background-color: #a3c6c7;">
+            <p align="center" style="font-family: calibri;">Details Form</p>
+            <hr>
+            <form method="GET">
+                <div class="col-md-12 ">
+
+                    <div class="form-group">
+                          <label>Name: </label>
+                          <input type="text" class="form-control" id="name" placeholder=" Enter Name" required>
+                    </div>	
+                    <div class="form-group">
+                          <label>Mobile No.:</label>
+                          <input type="tel" class="form-control" id="mobile" placeholder=" Enter 10-digit mobile no." required>
+                    </div>
+                    <div class="form-group">
+                           <label>Email Id: </label>
+                           <input type="email" class="form-control" id="email" placeholder=" Enter Email id" required>
+                     </div>
+
+                     <button type="button" onclick="detailsform()" style="background-color: #d49b39; margin-left: 95px; padding-left: 20px; padding-right: 20px; font-family: calibri; font-size: 20px;">SUBMIT</button>
+                    </div>
+                    </form>
+
+                    <br><br> 
+                    </tr></td>
+                    <tr><td>
+                    <div id="last">
+                    <br>
+                          
+                        <div class="container">
+                        <div class="table-responsive-sm">    
+                        <table class="table table-bordered" id="detailTable" >
+                         <tr>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Mobile No.</th>
+                        <th>Delete</th>
+                        </tr>
+                        </table>
+                        </div>
+                        </div>
+                        </div>
+    </div></td></tr>
+    <script src="App.js"></script>
+    </body>
+    </table>
+    </html>
